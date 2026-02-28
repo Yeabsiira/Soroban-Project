@@ -1,22 +1,28 @@
-# Soroban Project
+# 🌟 Hello Soroban Smart Contract
 
-## Project Structure
+This project is my first Soroban smart contract built on the Stellar blockchain using Rust and deployed on the Stellar Testnet.
 
-This repository uses the recommended structure for a Soroban project:
+---
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## 🚀 Project Overview
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+This smart contract demonstrates:
+
+- Writing a Soroban smart contract in Rust
+- Building the contract into WASM
+- Deploying it to Stellar Testnet
+- Invoking the contract function
+
+The contract includes a simple function that returns a greeting message.
+
+---
+
+## 🛠️ Tech Stack
+
+- Soroban (Stellar Smart Contracts)
+- Rust
+- WASM
+- Stellar CLI
+- WSL Ubuntu
+
+---
